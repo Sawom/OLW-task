@@ -2,9 +2,27 @@
 
 @import "tailwindcss";
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-family: "Roboto Condensed", sans-serif;
+@theme {
+  --font-roboto: "Roboto Condensed", sans-serif;
+  --color-brand-pink: #E9436A;
+}
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1rem;
+  width: 100%;
+
+  @variant sm { max-width: 640px; }
+  @variant md { max-width: 768px; }
+  @variant lg { max-width: 1024px; }
+  @variant xl { max-width: 1280px; }
+  @variant 2xl { max-width: 1536px; }
+}
+
+/* বেস স্টাইল */
+@layer base {
+  body {
+    font-family: var(--font-roboto);
+    @apply antialiased text-gray-900;
+  }
 }
