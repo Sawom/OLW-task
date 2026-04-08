@@ -11,7 +11,7 @@ import Img4 from '@/assets/hero-section/v.png';
 
 const HeroSection = () => {
   return (
-    <section className="relative w-full bg-white overflow-hidden py-16 md:py-24 lg:py-32 min-h-[600px] flex items-center">
+    <section className="relative w-full bg-[#FEF5F8] overflow-hidden py-16 md:py-24 lg:py-32 min-h-[600px] flex items-center">
       {/* Background Grid Pattern */}
       <div className="absolute inset-0 opacity-[0.03] z-0 pointer-events-none"
         style={{
@@ -50,7 +50,7 @@ const HeroSection = () => {
       </div>
 
       <div className="absolute inset-0 z-20 pointer-events-none select-none">
-        {/* Top Left - Airbnb Slot */}
+        {/* Top Left  */}
         <div className="absolute img-slot airbnb-slot bg-[#FF5A5F] p-1">
             <div className="relative w-full h-full">
                 <Image src={Img1} fill alt="airbnb" className="object-contain" />

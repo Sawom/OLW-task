@@ -82,3 +82,17 @@
 .dot-red { top: 55%; left: 15%; background: #ef4444; }
 .dot-yellow { bottom: 10%; left: 10%; background: #f59e0b; }
 .dot-blue { bottom: 20%; right: 10%; background: #3b82f6; }
+
+/* slide move */
+@keyframes infinite-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); } 
+}
+
+.animate-infinite-scroll {
+  animation: infinite-scroll 30s linear infinite;
+}
+
+.animate-infinite-scroll:hover {
+  animation-play-state: paused; 
+}
