@@ -19,10 +19,66 @@
   @variant 2xl { max-width: 1536px; }
 }
 
-/* বেস স্টাইল */
 @layer base {
   body {
     font-family: var(--font-roboto);
     @apply antialiased text-gray-900;
   }
 }
+
+/* hero */
+.img-slot {
+  width: 65px; 
+  height: 65px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 5;
+  transition: all 0.3s ease-in-out;
+}
+
+.airbnb-slot { top: 2%; left: 2%; transform: rotate(29deg); }
+.booking-slot { top: 3%; right: 2%; transform: rotate(27deg); }
+.vrbo-slot { bottom: 8%; left: 2%; transform: rotate(23deg); }
+.trip-slot { bottom: 8%; right: 2%; transform: rotate(8deg); }
+
+@media (min-width: 768px) {
+  .img-slot {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+  }
+  .airbnb-slot { top: 15%; left: 5%; }
+  .booking-slot { top: 18%; right: 5%; }
+  .vrbo-slot { bottom: 12%; left: 8%; }
+  .trip-slot { bottom: 10%; right: 8%; }
+}
+
+@media (min-width: 1024px) {
+  .img-slot {
+    width: 65px;
+    height: 65px;
+    border-radius: 5px;
+  }
+  .airbnb-slot { top: 18%; left: 12%; }
+  .booking-slot { top: 20%; right: 15%; }
+  .vrbo-slot { bottom: 20%; left: 15%; }
+  .trip-slot { bottom: 15%; right: 18%; }
+}
+
+/* Dots Styling */
+.dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.dot-purple { top: 25%; left: 8%; background: #8b5cf6; }
+.dot-green { top: 15%; left: 50%; background: #10b981; }
+.dot-green1 { bottom: 15%; left: 50%; background: #10b981; }
+.dot-red { top: 55%; left: 15%; background: #ef4444; }
+.dot-yellow { bottom: 10%; left: 10%; background: #f59e0b; }
+.dot-blue { bottom: 20%; right: 10%; background: #3b82f6; }
