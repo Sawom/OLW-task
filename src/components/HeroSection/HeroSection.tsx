@@ -37,12 +37,12 @@ const HeroSection = () => {
           
           <div className="flex flex-col items-center gap-6 mt-10">
             <div className="pt-4 border-t border-gray-50">
-                <button className="flex items-center gap-3 bg-[#E9436A] text-white px-8 py-4 rounded-lg font-bold text-[16px] justify-center shadow-md">
+                <button className="flex cursor-pointer items-center gap-3 bg-[#E9436A] text-white px-8 py-4 rounded-lg font-bold text-[16px] justify-center shadow-md">
                     <span>Schedule A Meeting</span>
                     <MoveRight size={20} />
                 </button>
             </div>
-            <Link href="/pricing" className="text-black text-[16px] font-bold underline hover:text-[#E9436A] transition">
+            <Link href="#" className="text-black text-[16px] font-bold underline hover:text-[#E9436A] transition">
               See Pricing
             </Link>
           </div>
