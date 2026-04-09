@@ -14,7 +14,7 @@ const Trusted = () => {
   const brandLogos = [Img1,Img2,Img3,Img4,Img5,Img6,Img7,]; 
 
     return (
-    <section className="py-12 md:py-12 ">
+    <section className="py-12 ">
       <div className="">
         <h3 className="text-center text-[#0F172A] text-[16px] md:text-[18px] lg:text-[20px] font-bold mb-10 md:mb-12">
           Trusted by leaders in 50+ industries
