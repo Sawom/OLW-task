@@ -4,14 +4,19 @@ import React, { useState } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { MoveRight, Menu, X } from "lucide-react";
-import Image from 'next/image';
-import Logo from '@/assets/logo-google.png';
+import Image from "next/image";
+import Logo from "@/assets/logo-google.png";
+
+interface NavLink {
+  name: string;
+  href: string;
+}
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
-  const navLinks = [
+  const navLinks: NavLink[] = [
     { name: "Home", href: "/" },
     { name: "About", href: "" },
     { name: "Services", href: "" },
@@ -24,14 +29,13 @@ const Navbar = () => {
     <nav className="w-full sticky top-0 z-50 bg-white border-b border-gray-100">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex items-center justify-between h-20">
-          
           {/* Logo */}
           <Link href="/" className="flex-shrink-0">
-            <Image 
-                src={Logo} 
-                alt="Logo" 
-                className="h-7 md:h-8 w-auto cursor-pointer"
-              />
+            <Image
+              src={Logo}
+              alt="Logo"
+              className="h-7 md:h-8 w-auto cursor-pointer"
+            />
           </Link>
 
           {/* Desktop Menu */}
@@ -65,7 +69,8 @@ const Navbar = () => {
           </div>
 
           {/* Mobile & Tablet Toggle Button */}
-          <button style={{ cursor: 'pointer' }}
+          <button
+            style={{ cursor: "pointer" }}
             onClick={() => setIsOpen(!isOpen)}
             className="lg:hidden p-2 text-gray-700 relative z-[60]"
           >
@@ -77,7 +82,9 @@ const Navbar = () => {
       {/* Mobile/Tablet Menu Dropdown */}
       <div
         className={`lg:hidden absolute top-20 left-0 w-full bg-white border-b border-gray-100 shadow-xl transition-all duration-300 ease-in-out ${
-          isOpen ? "opacity-100 translate-y-0 visible" : "opacity-0 -translate-y-4 invisible"
+          isOpen
+            ? "opacity-100 translate-y-0 visible"
+            : "opacity-0 -translate-y-4 invisible"
         }`}
       >
         <div className="px-6 py-10 flex flex-col gap-6 bg-white">
