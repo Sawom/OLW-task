@@ -1,3 +1,4 @@
+import GettingStarted from "@/components/GettingStarted/GettingStarted";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import OurService from "@/components/OurServices/OurServices";
 import OurTools from "@/components/OurTools/OurTools";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <OurService />
       <Pricing />
       <OurTools />
+      <GettingStarted />
     </>
   );
 };
