@@ -1,14 +1,15 @@
 ## Project Structure
 
+```text
 src/
-│ declarations.d.ts # Type declarations for CSS modules and assets
+│ declarations.d.ts 
 │
-├── app/ # Next.js App Router
+├── app/ 
 │ │ favicon.ico
-│ │ globals.css # Global Tailwind styles
-│ │ layout.tsx # Root layout
+│ │ globals.css 
+│ │ layout.tsx 
 │ │
-│ └── (commonLayout)/ # Grouped route layout
+│ └── (commonLayout)/ 
 │ layout.tsx
 │ page.tsx # Main landing page
 │
