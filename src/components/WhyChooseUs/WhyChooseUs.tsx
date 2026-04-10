@@ -40,7 +40,7 @@ const WhyChooseUs: React.FC = () => {
                   <div className="w-8 h-8 rounded-full bg-[#FAC4D2] flex items-center justify-center flex-shrink-0">
                     <Check size={20} className="text-[#E9436A]" />
                   </div>
-                  <span className="text-[16px] md:text-[18px] font-semibold text-[#1E293B]">
+                  <span className="text-[16px] font-semibold text-[#1E293B]">
                     {reason.text}
                   </span>
                 </div>

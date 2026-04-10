@@ -23,8 +23,8 @@ const Trusted = () => {
 
   return (
     <section className="py-12 ">
-      <div className="">
-        <h3 className="text-center text-[#0F172A] text-[16px] md:text-[18px] lg:text-[20px] font-bold mb-10 md:mb-12">
+      <div>
+        <h3 className="text-center text-[#0F172A] text-[18px] font-bold mb-10 ">
           Trusted by leaders in 50+ industries
         </h3>
 

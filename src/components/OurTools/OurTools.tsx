@@ -27,8 +27,8 @@ const OurTools = () => {
 
   return (
     <section className="py-12 ">
-      <div className="text-center max-w-[800px] mx-auto mb-16 bg-white">
-        <h2 className="text-[32px] md:text-[40px] font-bold text-black mb-4">
+      <div className="text-center max-w-[700px] mx-auto mb-16 bg-white">
+        <h2 className="text-[32px] font-bold text-black mb-4">
           Our <span className="text-[#E9436A]">Tools</span>
         </h2>
         <p className=" text-[14px] leading-relaxed">

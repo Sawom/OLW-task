@@ -124,7 +124,7 @@ const Pricing = () => {
           {plans.map((plan, index) => (
             <div
               key={index}
-              className={`group relative p-8 rounded-[32px] border transition-all duration-500 cursor-pointer 
+              className={`group relative p-8 rounded-[12px] border transition-all duration-500 cursor-pointer 
                 bg-white text-gray-900  flex flex-col h-full
                 hover:bg-[#ED3C6A] hover:text-white border-[#FCDAE3] `}
             >

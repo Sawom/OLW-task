@@ -29,9 +29,10 @@ const Footer = () => {
                 className="h-7 md:h-8 w-auto cursor-pointer"
               />
             </Link>
-            <p className="text-gray-500 text-[14px] md:text-[15px] leading-relaxed max-w-[320px]">
+            <p className="text-gray-500 text-[14px] leading-relaxed max-w-[320px]">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-              dictum aliquet accumsan porta lectus ridiculus in mattis.
+              dictum aliquet accumsan porta lectus ridiculus in mattis. Netus
+              sodales in volutpat ullamcorper amet adipiscing fermentum.
             </p>
             <div className="flex items-center gap-6 pt-2">
               <a
@@ -70,7 +71,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   About
                 </Link>
@@ -78,7 +79,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/features"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Features
                 </Link>
@@ -86,7 +87,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/works"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Works
                 </Link>
@@ -94,7 +95,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/career"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Career
                 </Link>
@@ -111,7 +112,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/support"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Customer Support
                 </Link>
@@ -119,7 +120,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/delivery"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Delivery Details
                 </Link>
@@ -127,7 +128,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/terms"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Terms & Conditions
                 </Link>
@@ -135,7 +136,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/privacy"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Privacy Policy
                 </Link>
@@ -152,7 +153,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/ebooks"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Free eBooks
                 </Link>
@@ -160,7 +161,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/tutorial"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Development Tutorial
                 </Link>
@@ -168,7 +169,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/blog"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   How to - Blog
                 </Link>
@@ -176,7 +177,7 @@ const Footer = () => {
               <li>
                 <Link
                   href="/playlist"
-                  className="text-gray-600 hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
+                  className=" hover:text-[#E9436A] text-[14px] md:text-[15px] transition-colors"
                 >
                   Youtube Playlist
                 </Link>

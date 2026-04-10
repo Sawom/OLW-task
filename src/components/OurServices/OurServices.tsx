@@ -74,7 +74,7 @@ const OurService = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className="group p-8 rounded-[24px] border border-[#FAC4D2] bg-white hover:shadow-xl hover:shadow-pink-50/50 transition-all duration-300 flex flex-col items-start"
+              className="group p-8 rounded-[13px] border border-[#FAC4D2] bg-white hover:shadow-xl hover:shadow-pink-50/50 transition-all duration-300 flex flex-col items-start"
             >
               <div
                 className={` w-[78px] h-[78px] rounded-2xl mb-8 relative flex items-center justify-center `}
