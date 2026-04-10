@@ -1,6 +1,6 @@
 ## Project Structure
 
-```text
+```bash
 src/
 │ declarations.d.ts 
 │
@@ -38,6 +38,7 @@ src/
 ├── StillHaveQuestions/
 ├── Trusted/
 └── WhyChooseUs/
+```
 
 ---
 
