@@ -1,6 +1,7 @@
 "use client";
 
 import ClientReviews from "@/components/ClientReviews/ClientReviews";
+import FAQ from "@/components/FAQ/FAQ";
 import GettingStarted from "@/components/GettingStarted/GettingStarted";
 import HeroSection from "@/components/HeroSection/HeroSection";
 import OurService from "@/components/OurServices/OurServices";
@@ -20,6 +21,7 @@ const HomePage = () => {
       <GettingStarted />
       <WhyChooseUs />
       <ClientReviews />
+      <FAQ />
     </>
   );
 };

@@ -24,7 +24,7 @@ const WhyChooseUs: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-6 py-12 items-center">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-6">
-              <h2 className="text-[36px] font-bold text-[#0F172A] leading-tight">
+              <h2 className="text-[32px] font-bold text-[#0F172A] leading-tight">
                 Few Reasons Why you Choose us?
               </h2>
               <p className=" text-[14px] leading-relaxed max-w-[550px]">
