@@ -45,11 +45,10 @@ const OurTools = () => {
             {partners.map((logo, index) => (
               <div
                 key={index}
-                className="bg-white rounded-[16px] h-[120px] md:h-[140px] flex items-center justify-center p-6 shadow-sm border border-gray-50 hover:shadow-md hover:-translate-y-1 transition-all duration-300 cursor-pointer"
+                className="bg-white rounded-[16px] h-[140px] max-w-[290px] flex items-center justify-center p-6 shadow-sm border border-gray-50 hover:shadow-md hover:-translate-y-1 transition-all duration-300 cursor-pointer"
               >
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image src={logo} alt="logo" className="object-contain" />
-                  <div className="w-24 h-8 bg-gray-100 rounded animate-pulse"></div>
                 </div>
               </div>
             ))}
