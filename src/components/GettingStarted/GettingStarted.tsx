@@ -36,7 +36,7 @@ const GettingStarted = () => {
     <section className="py-12 bg-white">
       <div className="container mx-auto px-4 md:px-8 lg:px-12">
         <div className="text-center max-w-[800px] mx-auto mb-20">
-          <h2 className="text-[32px] md:text-[44px] font-bold text-black mb-6">
+          <h2 className="text-[32px] font-bold text-black mb-6">
             Getting Started is <span className="text-[#E9436A]">Easy</span>
           </h2>
           <p className=" text-[14px] md:text-[16px] leading-relaxed">
